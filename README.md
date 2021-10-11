@@ -7,9 +7,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -40,9 +37,6 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-
 ## Getting Started
 
 
@@ -68,6 +62,10 @@ You need to have the following prerequisites installed on your system.
    process.env.MONGOURL
    ```
    Alternatively you can hardcore a connection string in /drivers/mongodb.js
+4. You are now ready to execute the application.
+   ```js
+   node server.js
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,7 +74,6 @@ You need to have the following prerequisites installed on your system.
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->

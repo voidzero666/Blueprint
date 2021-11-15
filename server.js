@@ -4,8 +4,6 @@ var fs = require('fs')
 var morgan = require('morgan')
 var path = require('path')
 
-// test 
-
 const app = (module.exports = express());
 const port = process.env.PORT || 3000;
 const routes = require('./routes/root.routes');
